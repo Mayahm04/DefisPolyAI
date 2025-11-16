@@ -1,4 +1,4 @@
-# 🌱 SmartSort – Application IA de tri intelligent
+#  SmartSort – Application IA de tri intelligent
 
 SmartSort est une application web complète (frontend + backend + IA) développée pour aider les utilisateurs à trier leurs déchets grâce à une photo ou une description textuelle.  
 Le système prédit automatiquement la bonne catégorie (plastique, métal, papier, verre, organique, autre) et conserve l’historique des prédictions.
