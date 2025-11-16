@@ -27,6 +27,24 @@ Backend FastAPI performant, documenté automatiquement via **/docs** (Swagger).
 ---
 
 ## 🏗️ Architecture du projet
+smartsort/
+│── backend/
+│   │── app.py
+│   │── model.py
+│   │── database.py
+│   │── saved_model.pkl
+│   │── requirements.txt
+│
+│── frontend/
+│   │── src/
+│   │   │── App.jsx
+│   │   │── components/
+│   │   │     ├── UploadCard.jsx
+│   │   │     └── History.jsx
+│   │── package.json
+│   │── vite.config.js
+│
+│── README.md
 
 ---
 
