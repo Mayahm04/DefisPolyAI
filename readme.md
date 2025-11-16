@@ -49,11 +49,6 @@ smartsort/
 ```
 ---
 
-## 🔧 Installation rapide
-
-Voici comment exécuter SmartSort en local.
-
----
 
 ## 1️ Backend (FastAPI)
 
