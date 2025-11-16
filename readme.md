@@ -7,26 +7,26 @@ Le système prédit automatiquement la bonne catégorie (plastique, métal, papi
 
 ---
 
-## 🧠 Fonctionnalités
+##  Fonctionnalités
 
-### ♻️ Classification d’image  
+###  Classification d’image  
 L’utilisateur envoie une photo → IA MobilenetV2 → catégorie prédite.
 
-### ✍️ Classification textuelle  
+###  Classification textuelle  
 L’utilisateur décrit un objet → NLP TF-IDF + Logistic Regression → catégorie prédite.
 
-### 🕒 Historique des prédictions  
+### Historique des prédictions  
 Toutes les prédictions sont enregistrées dans SQLite et affichées dans l’interface.
 
-### 🎨 Interface simple & responsive  
+###  Interface simple & responsive  
 Frontend React moderne, rapide, clair et agréable.
 
-### ⚡ API REST  
+###  API REST  
 Backend FastAPI performant, documenté automatiquement via **/docs** (Swagger).
 
 ---
 
-## 🏗️ Architecture du projet
+##  Architecture du projet
 ```bash
 smartsort/
 │── backend/
@@ -55,9 +55,9 @@ Voici comment exécuter SmartSort en local.
 
 ---
 
-## 1️⃣ Backend (FastAPI)
+## 1️ Backend (FastAPI)
 
-### 📥 Installer les dépendances
+### Installer les dépendances
 Depuis le dossier `backend/` :
 
 ```bash
