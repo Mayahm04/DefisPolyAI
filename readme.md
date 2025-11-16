@@ -27,13 +27,25 @@ Backend FastAPI performant, documenté automatiquement via **/docs** (Swagger).
 ---
 
 ## 🏗️ Architecture du projet
-# Dockerfile
-FROM python:3.11
 
-WORKDIR /app
-COPY backend/ /app/
+---
 
-RUN pip install -r requirements.txt
+## 🔧 Installation rapide
 
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+Voici comment exécuter SmartSort en local.
+
+---
+
+## 1️⃣ Backend (FastAPI)
+
+### 📥 Installer les dépendances
+Depuis le dossier `backend/` :
+
+```bash
+pip install -r requirements.txt
+python -m uvicorn app:app --reload --host 0.0.0.0 --port 8000
+npm install
+npm install axios
+npm run dev
+
 
