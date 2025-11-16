@@ -44,8 +44,12 @@ Depuis le dossier `backend/` :
 ```bash
 pip install -r requirements.txt
 python -m uvicorn app:app --reload --host 0.0.0.0 --port 8000
+```
+Depuis le dossier `frontend/` :
+```bash
 npm install
 npm install axios
 npm run dev
+```
 
 
