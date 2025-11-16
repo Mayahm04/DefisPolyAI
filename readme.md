@@ -27,4 +27,13 @@ Backend FastAPI performant, documenté automatiquement via **/docs** (Swagger).
 ---
 
 ## 🏗️ Architecture du projet
+# Dockerfile
+FROM python:3.11
+
+WORKDIR /app
+COPY backend/ /app/
+
+RUN pip install -r requirements.txt
+
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
 
