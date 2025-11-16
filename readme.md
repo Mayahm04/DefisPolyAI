@@ -27,6 +27,7 @@ Backend FastAPI performant, documenté automatiquement via **/docs** (Swagger).
 ---
 
 ## 🏗️ Architecture du projet
+```bash
 smartsort/
 │── backend/
 │   │── app.py
@@ -45,7 +46,7 @@ smartsort/
 │   │── vite.config.js
 │
 │── README.md
-
+```
 ---
 
 ## 🔧 Installation rapide
